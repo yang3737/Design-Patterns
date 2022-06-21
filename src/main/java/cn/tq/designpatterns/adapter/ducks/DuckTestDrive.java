@@ -1,8 +1,9 @@
 package cn.tq.designpatterns.adapter.ducks;
 
-import headfirst.designpatterns.adapter.ducks.challenge.Drone;
-import headfirst.designpatterns.adapter.ducks.challenge.DroneAdapter;
-import headfirst.designpatterns.adapter.ducks.challenge.SuperDrone;
+
+import cn.tq.designpatterns.adapter.ducks.challenge.Drone;
+import cn.tq.designpatterns.adapter.ducks.challenge.DroneAdapter;
+import cn.tq.designpatterns.adapter.ducks.challenge.SuperDrone;
 
 public class DuckTestDrive {
 	public static void main(String[] args) {

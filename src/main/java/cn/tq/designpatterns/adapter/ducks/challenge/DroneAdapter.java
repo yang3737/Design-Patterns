@@ -1,6 +1,7 @@
 package cn.tq.designpatterns.adapter.ducks.challenge;
 
-import headfirst.designpatterns.adapter.ducks.Duck;
+
+import cn.tq.designpatterns.adapter.ducks.Duck;
 
 public class DroneAdapter implements Duck {
 	Drone drone;

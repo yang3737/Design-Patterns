@@ -1,21 +1,20 @@
 package cn.tq.designpatterns.observer.simple;
 
 import java.util.*;
-import java.util.Observer;
 
 public class SimpleSubject implements Subject {
-	private List<java.util.Observer> observers;
+	private List<Observer> observers;
 	private int value = 0;
 	
 	public SimpleSubject() {
-		observers = new ArrayList<java.util.Observer>();
+		observers = new ArrayList<Observer>();
 	}
 	
-	public void registerObserver(java.util.Observer o) {
+	public void registerObserver(Observer o) {
 		observers.add(o);
 	}
 	
-	public void removeObserver(java.util.Observer o) {
+	public void removeObserver(Observer o) {
 		observers.remove(o);
 	}
 	

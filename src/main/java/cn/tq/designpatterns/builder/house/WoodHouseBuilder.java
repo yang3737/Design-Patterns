@@ -1,6 +1,5 @@
 package cn.tq.designpatterns.builder.house;
 
-import headfirst.designpatterns.builder.house.HouseBuilder.HouseType;
 
 public class WoodHouseBuilder extends HouseBuilder {
 	int numWalls = 6;     // 4 exterior walls, 2 interior

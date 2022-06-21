@@ -1,11 +1,10 @@
 package cn.tq.designpatterns.builder.house;
 
-import headfirst.designpatterns.builder.house.HouseBuilder.HouseType;
 import java.util.*;
 
 public class House {
 	String name;
-	HouseType houseType;
+	HouseBuilder.HouseType houseType;
 	Roof roof;
 	List<Wall> walls;
 	List<Window> windows;
@@ -14,7 +13,7 @@ public class House {
 		this.walls = new ArrayList<Wall>();
 		this.windows = new ArrayList<Window>();
 	}
-	public House setHouseType(HouseType houseType) {
+	public House setHouseType(HouseBuilder.HouseType houseType) {
 		this.houseType = houseType;
 		switch (houseType) {
 			case WOOD: this.name = "My wood house"; break;
